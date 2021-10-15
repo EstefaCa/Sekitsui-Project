@@ -33,7 +33,7 @@
               <h6 class="font-weight-light">Por favor completa los campos para coninuar.</h6>
               <form class="pt-3" method="POST" action="">
                 <div class="form-group">
-                  <input type="text" name="N_Password" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Contraseña nueva"  maxlength="20" required>
+                  <input type="password" name="N_Password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Contraseña nueva"  maxlength="20" required>
                 </div>
                 <div class="form-group">
                   <input type="password" name="C_Password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Confirmar contraseña" maxlenght="20" required>

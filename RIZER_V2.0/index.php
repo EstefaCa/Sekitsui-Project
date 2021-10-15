@@ -74,11 +74,12 @@
                 </div>
                 <div class="col-md-6 align-self-center text-center text-md-left">
                     <div class="block">
-                        <h1 class="font-weight-bold mb-4 font-size-60">Belive in Technology, Make the change</h1>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!</p>
-                        <a class="btn btn-main" href="#about" role="button">Buy Now With $199</a>
+                        <h1 class="font-weight-bold mb-4 font-size-60">Bienvenidos a la plataforma RIZER</h1>
+                        <p class="mb-4">Rizer, es un prototipo de una cocina inteligente, 
+                            el cual inicia con el desarrollo y la implementación de una olla arocera.
+                             Donde su principal función es cocer arroz desde un dispositivo con internet.
+                              </p>
+                        <!-- <a class="btn btn-main" href="#about" role="button">Buy Now With $199</a> -->
                     </div>
                 </div>
             </div><!-- .row close -->
