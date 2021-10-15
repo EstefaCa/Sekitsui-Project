@@ -1,0 +1,5 @@
+Options All -Indexes
+ErrorDocument 404 http://localhost/sekitsui-project/RIZER/USER/pages/error/error-404.php
+ErrorDocument 500 http://localhost/sekitsui-project/RIZER/USER/pages/error/error-500.php
+ErrorDocument 403 http://localhost/sekitsui-project/RIZER/USER/pages/error/error-403.php
+ErrorDocument 504 http://localhost/sekitsui-project/RIZER/USER/pages/error/error-504.php
