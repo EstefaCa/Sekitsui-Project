@@ -66,7 +66,7 @@
                 </div>
                 <?php
                     if (isset($_POST['Users_Name'],$_POST['Users_Email'],$_POST['Users_Nickname'],$_POST['Users_Password'])) {
-                        require_once "../../../Persistencia/Connection/Connection.php";
+                        
                         require_once "../../../Persistencia/Crud/Insert.php";
                     }
                 ?>
@@ -96,5 +96,7 @@
   <script src="../../js/todolist.js"></script>
   <!-- endinject -->
 </body>
-
+<style>
+    *{User-select: none !important;}
+</style>
 </html>

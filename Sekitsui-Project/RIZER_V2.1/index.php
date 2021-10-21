@@ -30,7 +30,7 @@
 
 <body id="body">
 
-    <div id="preloader-wrapper">
+<div id="preloader-wrapper">
         <div class="pre-loader"></div>
     </div>
 
@@ -69,9 +69,13 @@
     <section class="section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center mb-5 mb-md-0">
+                <!-- <div class="col-md-6 text-center mb-5 mb-md-0">
                     <img src="wel_page/images/osha.png" alt="">
+                </div> -->
+                <div class="col-md-6 text-center mb-5 mb-lg-0">
+                    <img class="img-fluid" src="wel_page//images/osha.png" alt="">
                 </div>
+
                 <div class="col-md-6 align-self-center text-center text-md-left">
                     <div class="block">
                         <h1 class="font-weight-bold mb-4 font-size-60">Bienvenidos a la plataforma RIZER</h1>
@@ -114,6 +118,9 @@
         </div>
     </footer>
 
+<style>
+    *{User-select: none !important;}
+</style>
 
     <!-- Js -->
     <script src="wel_page/plugins/jquery-2.1.1.min.js"></script>

@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_SESSION['Users_Email'],$_SESSION['Users_Password'])){
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -29,19 +35,36 @@
               <div class="brand-logo">
               <a href="../../../index.php"><img src="../../images/PNG/logo.png" alt="logo"></a>
               </div>
-              <h4></h4>
-              <h6 class="font-weight-light">Por favor completa los campos para cambiar tu contraseña</h6>
-              <form class="pt-3" method="POST" action="../../../Persistencia/Recuperar/enviar.php">
+              <h4>Bienvenido!</h4>
+              <h6 class="font-weight-light">completa los campos para coninuar.</h6>
+              <form class="pt-3" method="POST" action="">
                 <div class="form-group">
-                  <input type="email" name="Users_Email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Correo"  maxlength="" required>
+                  <input type="text" name="Users_Nickname" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Usuario/Correo"  maxlength="20" required>
+                </div>
+                <div class="form-group">
+                  <input type="password" name="Users_Password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Contraseña" maxlenght="20" required>
                 </div>
                 <div class="mt-3">
-                  <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Enviar"></input>
+                  <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Iniciar Sesion"></input>
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
-                  <div class="form-check"> 
+                  <div class="form-check">
+                    <label class="form-check-label text-muted">
+                      <input type="checkbox" class="form-check-input">
+                      Recuerdame
+                    </label>
                   </div>
+                  <a href="recov_password.php" class="auth-link text-black">¿Olvidaste tu contraseña?</a>
                 </div>
+                <div class="text-center mt-4 font-weight-light">
+                  ¿No tienes cuenta? <a href="register.php" class="text-primary">Crea una cuenta</a>
+                </div>
+                <?php
+                  if (isset($_POST['Users_Nickname'],$_POST['Users_Password'])) {
+                    require_once "../../../Persistencia/Connection/Connection.php";
+                    require_once "../../../Persistencia/Login/Login_code.php";
+                  }	
+			        	?>
               </form>
             </div>
           </div>
@@ -65,5 +88,7 @@
   <script src="../../js/todolist.js"></script>
   <!-- endinject -->
 </body>
-
+<style>
+    *{User-select: none !important;}
+</style>
 </html>

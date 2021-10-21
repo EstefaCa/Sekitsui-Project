@@ -30,25 +30,18 @@
               <a href="../../../index.php"><img src="../../images/PNG/logo.png" alt="logo"></a>
               </div>
               <h4></h4>
-              <h6 class="font-weight-light">Por favor completa los campos para coninuar.</h6>
-              <form class="pt-3" method="POST" action="">
+              <h6 class="font-weight-light">Por favor completa los campos para cambiar tu contraseña</h6>
+              <form class="pt-3" method="POST" action="../../../Persistencia/Recuperar/enviar.php">
                 <div class="form-group">
-                  <input type="password" name="N_Password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Contraseña nueva"  maxlength="20" required>
-                </div>
-                <div class="form-group">
-                  <input type="password" name="C_Password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Confirmar contraseña" maxlenght="20" required>
+                  <input type="email" name="Users_Email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Correo"  maxlength="" required>
                 </div>
                 <div class="mt-3">
-                  <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Guardar"></input>
+                  <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Enviar"></input>
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
+                  <div class="form-check"> 
+                  </div>
                 </div>
-                <?php
-                  if (isset($_POST['N_Password'],$_POST['C_Password'])) {
-                      include_once '../../../Persistencia/Connection/Connection.php"';
-                      include_once '../../../Persistencia/Recuperar/Update_P.php';
-                  }
-                ?>
               </form>
             </div>
           </div>
@@ -72,5 +65,7 @@
   <script src="../../js/todolist.js"></script>
   <!-- endinject -->
 </body>
-
+<style>
+    *{User-select: none !important;}
+</style>
 </html>

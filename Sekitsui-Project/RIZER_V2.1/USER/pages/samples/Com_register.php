@@ -143,5 +143,7 @@ if(isset($_SESSION['Users_Id'])){
   <script src="../../js/todolist.js"></script>
   <!-- endinject -->
 </body>
-
+<style>
+    *{User-select: none !important;}
+</style>
 </html>

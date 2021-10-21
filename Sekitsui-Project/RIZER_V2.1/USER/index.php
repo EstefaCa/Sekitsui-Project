@@ -577,6 +577,8 @@
   <script src="js/Chart.roundedBarCharts.js"></script>
   <!-- End custom js for this page-->
 </body>
-
+<style>
+    *{User-select: none !important;}
+</style>
 </html>
 

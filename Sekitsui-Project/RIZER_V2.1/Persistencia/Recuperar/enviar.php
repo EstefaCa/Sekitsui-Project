@@ -57,7 +57,7 @@ try {
     $mail->Subject = utf8_decode('Recupere Contraseña.');
     $mail->Body    = utf8_decode('    
     Hola'.' '.$Users_Name.' '.$Users_LastName.'.<br>
-    Link para Renovar tu Contraseña :http://localhost/Sekitsui-Project/RIZER_V2.0/USER/pages/samples/Recov_confirm.php?Users_Id='.$Users_Id);
+    Link para Renovar tu Contraseña :http://localhost/Sekitsui-Project/RIZER_V2.1/USER/pages/samples/Recov_confirm.php?Users_Id='.$Users_Id);
     // $mail->AltBody = '';
 
     $mail->send();

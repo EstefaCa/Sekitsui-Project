@@ -1,4 +1,5 @@
 <?php
+
 $Users_Nickname=$_POST['Users_Nickname'];
 $Users_Password=md5($_POST['Users_Password']);
 

@@ -28,7 +28,7 @@
     <link rel="shortcut icon" href="../images/favicon.png" />
 </head>
 
-<body id="body">
+<body id="body" user-select="none">
 
     <div id="preloader-wrapper">
         <div class="pre-loader"></div>
@@ -72,44 +72,44 @@
             <div class="row">
                 <div class="col-12">
                     <div class="heading">
-                        <h2>Our Core Features</h2>
+                        <h2>Servicios</h2>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mb-40 text-center text-md-left">
-                        <i class="d-inlin-block h2 mb-10 tf-ion-ios-alarm-outline"></i>
-                        <h4 class="font-weight-bold mb-2">Smooth Touch</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        <i class="d-inlin-block h2 mb-10 tf-ion-ios-calculator-outline"></i>
+                        <h4 class="font-weight-bold mb-2">Calcula datos nutricionales</h4>
+                        <p>Como IMC, calorías, ASC, MCM, peso sugerido, rango ideal, entre otros.</p>
                     </div>
                     <div class="mb-40 text-center text-md-left">
                         <i class="d-inlin-block h2 mb-10 tf-ion-ios-bell-outline"></i>
-                        <h4 class="font-weight-bold mb-2">Elegant Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        <h4 class="font-weight-bold mb-2">Te notificamos</h4>
+                        <p>Creamos notificaciones y recomendaciones solo para usted.</p>
                     </div>
                     <div class="mb-40 text-center text-md-left">
                         <i class="d-inlin-block h2 mb-10 tf-ion-ios-cart-outline"></i>
-                        <h4 class="font-weight-bold mb-2">Easy Pricing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        <h4 class="font-weight-bold mb-2">Facilidad de pedidos</h4>
+                        <p>Puede personalidad sus porciones, hora, fecha, cantidad de ingredientes e incluso utilizar nuestras recetas predeterminadas.</p>
                     </div>
                 </div>
                 <div class="col-md-4 text-center align-self-center mb-4 mb-md-0">
-                    <img class="img-fluid" src="../images/watch-2.png" alt="">
+                    <img class="img-fluid" src="../images/osha.png" alt="">
                 </div>
                 <div class="col-md-4">
                     <div class="mb-40 text-center text-md-left">
-                        <i class="d-inlin-block h2 mb-10 tf-ion-ios-alarm-outline"></i>
-                        <h4 class="font-weight-bold mb-2">Smooth Touch</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        <i class="d-inlin-block h2 mb-10 tf-ion-ios-analytics-outline"></i>
+                        <h4 class="font-weight-bold mb-2">Recordamos tus preferencias</h4>
+                        <p>Para que su experiencia con nosotros sea única, recordaremos tu información.</p>
                     </div>
                     <div class="mb-40 text-center text-md-left">
-                        <i class="d-inlin-block h2 mb-10 tf-ion-ios-bell-outline"></i>
-                        <h4 class="font-weight-bold mb-2">Elegant Design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        <i class="d-inlin-block h2 mb-10  tf-ion-ios-circle-filled"></i>
+                        <h4 class="font-weight-bold mb-2">Actualice su perfil</h4>
+                        <p>Mantenga su perfil actualizado para un servicio más preciso.</p>
                     </div>
                     <div class="mb-40 text-center text-md-left">
-                        <i class="d-inlin-block h2 mb-10 tf-ion-ios-cart-outline"></i>
-                        <h4 class="font-weight-bold mb-2">Easy Pricing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?</p>
+                        <i class="d-inlin-block h2 mb-10 tf-ion-ios-browsers-outline"></i>
+                        <h4 class="font-weight-bold mb-2">Interfaz intuitiva</h4>
+                        <p>Nos proponemos en crear un espacio apto para toda la población.</p>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,9 @@
 </body>
 </HTML>
 
-
+<style>
+    *{User-select: none !important;}
+</style>
 
 
 
